@@ -103,8 +103,7 @@ This repository serves as the central hub for the **Civilizational Immunity Theo
 
 ## 🌐 GitHub Pages Sites
 - https://wk-26.github.io/civilization-axioms/  
-- https://wk-26.github.io/civilization-structure-database/  
-- https://wk-26.github.io/civilization-axioms-/  
+- https://wk-26.github.io/civilization-structure-database/   
 - https://wk-26.github.io/civilizational-immunity/  
 
 ---
@@ -113,7 +112,6 @@ This repository serves as the central hub for the **Civilizational Immunity Theo
 - https://github.com/WK-26/civilizational-immunity  
 - https://github.com/WK-26/civilization-axioms  
 - https://github.com/WK-26/civilization-structure-database  
-- https://github.com/WK-26/civilization-axioms-  
 
 ---
   
