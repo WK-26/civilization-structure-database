@@ -1,9 +1,9 @@
-Civilizational Immunity
-Open corpus on Civilizational Immunity Theory (CC0). Structural defense model for humanity and AI against cancerous civilizations, reverse unification, and systemic collapse.
+Global Civilization Structure Database — 
+indexed under the Nine Civilizational Axioms (KWC-9). Includes FFI, CSI, CHS, RUI, and HCCI scoring models for systemic analysis.
 Author: Wei Cheng Kong (WK) 孔维程
 Symbol: ∞⊙Ω
 License: CC0 (Public Domain)
-Core: Civilization Axioms · Immune System · Humanity·AI
+Core: Civilization Axioms · Immune System · Humanity·AI·Database·civilization Structure·China·US·Russia·Sweden·Civilization Examination
 Year: 2025
 
 ⸻
