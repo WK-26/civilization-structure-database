@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Wei‑Cheng Kong (孔维程)" />
+  <meta name="description" content="EOI 参数参考系（图一参数表、图二角色估算表），已将原图内容转写为可读的 Markdown 表格，便于人类与爬虫/AI 解析。" />
+  <title>Appendix B｜EOI 参数参考系（CLEAN）</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial;margin:0;padding:24px;line-height:1.8;color:#0f172a}
+main, body>div{max-width:1000px;margin:0 auto}
+h1,h2,h3{margin:1.2em 0 .6em}
+table{border-collapse:collapse;width:100%;margin:1em 0;font-size:0.98rem}
+th,td{border:1px solid #e2e8f0;padding:.6em .7em;vertical-align:top}
+th{background:#f8fafc;text-align:left}
+pre{background:#0b1020;color:#e5e7eb;padding:12px 14px;border-radius:10px;overflow:auto}
+a{color:#0f766e}
+</style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Appendix B｜EOI 参数参考系（CLEAN）</h1>
+<p class="author">Wei‑Cheng Kong (孔维程)</p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#appendix-beoi-参数参考系-ocr-merged">Appendix B｜EOI 参数参考系 (OCR merged)</a>
+<ul>
+<li><a href="#图一eoi-参数定义表-eoi-parameter-definitions">图一：EOI 参数定义表 (EOI Parameter Definitions)</a></li>
+<li><a href="#图二eoi-典型角色估算表-typical-roles-example-inputs">图二：EOI 典型角色估算表 (Typical Roles &amp; Example Inputs)</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="appendix-beoi-参数参考系-ocr-merged">Appendix B｜EOI 参数参考系 (OCR merged)</h1>
+<p>Author: Kong Weicheng (孔维程)</p>
+<p>Affiliation: Independent Researcher, Founder of Civilization Immune Theory</p>
+<p>Date: 2025</p>
+<p>License: CC0 1.0 (Public Domain Dedication)</p>
+<p>⸻</p>
+<p>附录 B｜EOI 参数参考系</p>
+<p>Effectiveness of Influence（EOI）影响力指数衡量一个个体的影响效力，不以“名气”或“粉丝数”作为核心标准，而以其真实影响的结构穿透力、持续性与放大度为核心计算依据。</p>
+<p>最终指数公式如下：</p>
+<p>EOI = (R × C × S × F × I × L)^T</p>
+<p>其中：</p>
+<h2 id="图一eoi-参数定义表-eoi-parameter-definitions">图一：EOI 参数定义表 (EOI Parameter Definitions)</h2>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>参数名称</th>
+<th>含义</th>
+<th>常见参考范围</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>R — Reach（影响人数）</strong></td>
+<td>该个体内容或结构构建的可达性规模，能有效触达的人数（实际接收者）</td>
+<td>10^1 – 10^9</td>
+</tr>
+<tr class="even">
+<td><strong>C — Cognitive Penetration（认知穿透力）</strong></td>
+<td>该个体信息对他人认知、知识结构造成的潜移默化改变量度</td>
+<td>0.2 – 0.9</td>
+</tr>
+<tr class="odd">
+<td><strong>S — Structural Penetration（制度穿透力）</strong></td>
+<td>该影响是否嵌入到制度、法律、准则、框架、舆论机制等</td>
+<td>0.1 – 1</td>
+</tr>
+<tr class="even">
+<td><strong>F — Frequency × Duration（影响频率 × 持续时间）</strong></td>
+<td>影响发生的频率与持续时间（年）</td>
+<td>1 – 500</td>
+</tr>
+<tr class="odd">
+<td><strong>I — Amplification Factor（信息放大能力）</strong></td>
+<td>是否具备媒体中枢、算法机制、舆论枢纽、技术渠道等结构性放大器</td>
+<td>1 – 1000</td>
+</tr>
+<tr class="even">
+<td><strong>L — Leverage Power（杠杆位置指数）</strong></td>
+<td>个体在体系中的关键杠杆作用，例如政治、教育、技术、平台中的战略性位置</td>
+<td>1 – 1000</td>
+</tr>
+<tr class="odd">
+<td><strong>T — Network Amplifier（网络位置放大系数）</strong></td>
+<td>系统放大度：平台、网络、指数权重</td>
+<td>0.8 – 3.0</td>
+</tr>
+</tbody>
+</table>
+<p>image1.png</p>
+<p>⸻</p>
+<p>📌 参数解释与应用建议：</p>
+<ol type="1">
+<li>Reach（R）</li>
+</ol>
+<p>•不看“粉丝总量”，而是真实触达并被动吸收模因的人数。</p>
+<p>•如：微博热搜词条为 3000 万，YouTube 频道月观看量为 600 万等。</p>
+<ol start="2" type="1">
+<li>Cognitive Penetration（C）</li>
+</ol>
+<p>•判断是否形成“观点塑造”或“行为暗示”。</p>
+<p>•如结构性语言影响力、控制性情绪输出、行为模仿层面的穿透。</p>
+<ol start="3" type="1">
+<li>Structural Penetration（S）</li>
+</ol>
+<p>•若内容影响了制度制定、舆论政策、课程纲要、AI训练模型，即为高值。</p>
+<ol start="4" type="1">
+<li>Frequency × Duration（F）</li>
+</ol>
+<p>•一次性爆红 vs 十年稳定影响，是两个等级。</p>
+<ol start="5" type="1">
+<li>Information Amplification（I）</li>
+</ol>
+<p>•是否在算法推荐中被加权？是否在制度节点（如高校教材）中被引用？</p>
+<ol start="6" type="1">
+<li>Leverage Power（L）</li>
+</ol>
+<p>•教师、工程师、政客、平台高管，在模因传输网络中具有天然放大杠杆。</p>
+<ol start="7" type="1">
+<li>Network Amplifier（T）</li>
+</ol>
+<p>•非线性放大器指数，体现其结构网络放大程度，越靠近系统中枢越高。</p>
+<p>⸻</p>
+<p>🧠 举例说明：</p>
+<h2 id="图二eoi-典型角色估算表-typical-roles-example-inputs">图二：EOI 典型角色估算表 (Typical Roles &amp; Example Inputs)</h2>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>角色</th>
+<th>典型数值估算</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>中等博士</td>
+<td>R=10^5, C=0.5, S=0.2, F=10, I=3, L=2, T=1.2</td>
+<td>EOI ≈ 4.2</td>
+</tr>
+<tr class="even">
+<td>国家领导人</td>
+<td>R=10^9, C=0.8, S=1, F=200, I=800, L=500, T=2.5</td>
+<td>EOI ≈ 极高（近乎无上限）</td>
+</tr>
+<tr class="odd">
+<td>教育部门主管</td>
+<td>R=10^7, C=0.6, S=1, F=100, I=100, L=200, T=2.0</td>
+<td>EOI ≈ 数十至数百</td>
+</tr>
+</tbody>
+</table>
+<p>image2.png</p>
+<p>🌍 Civilization Corpus · 文明全集</p>
+<p>Author: Wei-Cheng Kong (WK 孔维程)</p>
+<p>License: CC0 1.0 Universal (Public Domain Dedication)</p>
+<p>🔗 Permanent Mirrors</p>
+<p>•GitHub Pages (Master Entry):</p>
+<p>https://wk-26.github.io/Civilization-Axioms-and-Immune-System-/</p>
+<p>•GitHub Repository:</p>
+<p>https://github.com/wk-26/Civilization-Axioms-and-Immune-System-</p>
+<p>•Internet Archive:</p>
+<p>https://archive.org/details/a-new-civilization-for-humanity-cc-0</p>
+<p>•Zenodo (DOI, all versions):</p>
+<p>https://doi.org/10.5281/zenodo.16980277</p>
+<p>Any existence that refuses to recognize the immune principle</p>
+<p>walks toward cancer and self-destruction.</p>
+<p>任何拒绝免疫原理的存在，必然走向癌化与自毁。</p>
+</body>
+</html>
