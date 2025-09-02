@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>附录C1｜HCCI 演算 — 唐纳德·特朗普</title>
+<meta name="description" content="附录C1：HCCI 演算 — 唐纳德·特朗普（Donald Trump）。包含 FFI、CSI、CHS、EOI、RUI、HCCI 等指数的学术级说明与计算。">
+<style>
+
+:root{
+  --text: #111;
+  --muted: #666;
+  --bg: #fff;
+  --accent: #0f62fe;
+  --maxw: 860px;
+  --serif: "Noto Serif SC","Source Han Serif SC","Songti SC","STSong","SimSun",serif;
+  --sans: "Inter","Helvetica Neue","Arial","Noto Sans SC","Source Han Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+  --mono: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+*{box-sizing:border-box}
+html{font-size:16px}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+header,main,footer{
+  width:min(100%, calc(var(--maxw) + 2rem));
+  margin:0 auto;
+  padding:0 1rem;
+}
+header{
+  padding-top:2.25rem;
+  padding-bottom:1rem;
+}
+.title{
+  font-family:var(--serif);
+  font-size:2rem;
+  line-height:1.25;
+  margin:0 0 .25rem 0;
+}
+.subtitle{
+  font-family:var(--sans);
+  color:var(--muted);
+  margin:0 0 1rem 0;
+}
+.meta{
+  font-family:var(--sans);
+  color:var(--muted);
+  font-size:.95rem;
+}
+.toc{
+  margin:1.5rem 0 2rem 0;
+  border:1px solid #eee;
+  border-radius:.5rem;
+  padding:1rem 1.25rem;
+  background:#fafafa;
+  font-family:var(--sans);
+}
+.toc-title{
+  font-weight:600;
+  margin-bottom:.5rem;
+}
+.toc ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+  columns: 2;
+  column-gap: 2rem;
+}
+.toc li{
+  margin:.25rem 0;
+  break-inside: avoid;
+}
+.toc a{
+  color:var(--text);
+  text-decoration:none;
+}
+.toc a:hover{color:var(--accent);text-decoration:underline}
+main{
+  font-family:var(--serif);
+  line-height:1.75;
+  font-size:1.0625rem;
+  padding-bottom:3rem;
+}
+h1,h2,h3{
+  font-family:var(--serif);
+  line-height:1.3;
+  margin:2rem 0 1rem 0;
+}
+h1{font-size:1.65rem;border-bottom:1px solid #eee;padding-bottom:.5rem}
+h2{font-size:1.35rem;margin-top:1.75rem}
+p{margin:0 0 1rem 0}
+ul{margin:.25rem 0 1rem 1.2rem}
+li{margin:.25rem 0}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+blockquote{
+  border-left:3px solid #e5e5e5;
+  margin:1rem 0;
+  padding:.5rem 1rem;
+  color:#444;
+  background:#fafafa;
+}
+code,pre{
+  font-family:var(--mono);
+  background:#f6f8fa;
+  border:1px solid #eee;
+  border-radius:.25rem;
+}
+code{padding:.1rem .25rem}
+pre{padding:.75rem 1rem; overflow:auto}
+.kicker{
+  font-family:var(--sans);
+  text-transform:uppercase;
+  letter-spacing:.12em;
+  font-weight:600;
+  color:var(--muted);
+  font-size:.9rem;
+  margin-bottom:.5rem;
+}
+hr{border:0;border-top:1px solid #eee;margin:2rem 0}
+footer{
+  font-family:var(--sans);
+  color:var(--muted);
+  font-size:.95rem;
+  border-top:1px solid #eee;
+  padding-top:1rem;
+  padding-bottom:2rem;
+}
+@media print{
+  header,main,footer{width:auto; margin:0; padding:0 0.5in}
+  body{background:#fff; color:#000}
+  a{text-decoration:none; color:#000}
+  .toc ul{columns:1}
+  @page { size: A4; margin: 0.7in; }
+}
+
+</style>
+<!-- MathJax -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true
+  },
+  options: { skipHtmlTags: ['script','noscript','style','textarea','pre','code'] }
+};
+</script>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+<header>
+  <div class="kicker">Civilization Corpus · 文明全集</div>
+  <h1 class="title">附录C1：HCCI 演算 — 唐纳德·特朗普（Donald Trump）</h1>
+  <p class="subtitle">个体文明体检模型 · 学术版（出版级 HTML）</p>
+  <div class="meta">作者: Wei-Cheng Kong（WK 孔维程） · 许可: CC0 1.0 · 版本: 2025-09-02</div>
+</header>
+<main>
+<nav class="toc"><div class="toc-title">目录 · Table of Contents</div><ul>
+<li class="toc-h1"><a href="#sec-1">附录C1：HCCI 演算 : 唐纳德·特朗普（Donald Trump）</a></li>
+<li class="toc-h2"><a href="#sec-1-1">姓名：唐纳德·特朗普（Donald Trump）</a></li>
+<li class="toc-h2"><a href="#sec-1-2">身份：美国总统、商业大亨、媒体人物</a></li>
+<li class="toc-h2"><a href="#sec-1-3">指标评分</a></li>
+<li class="toc-h2"><a href="#sec-1-4">唐纳德·特朗普 – 功能结构指数（FFI）评分报告</a></li>
+<li class="toc-h2"><a href="#sec-1-5">唐纳德·特朗普 – CSI（癌结构指数）评分报告</a></li>
+<li class="toc-h2"><a href="#sec-1-6">📊 特朗普 CSI 得分（标准格式）</a></li>
+<li class="toc-h2"><a href="#sec-1-7">📐 EOI 公式结构（最新版）：</a></li>
+<li class="toc-h2"><a href="#sec-1-8">🧠 最终结论：</a></li>
+<li class="toc-h2"><a href="#sec-1-9">📘 HCCI（Human Civilization Contribution Index）人类文明贡献指数</a></li>
+<li class="toc-h2"><a href="#sec-1-10">🌍 Civilization Corpus · 文明全集</a></li>
+</ul></nav>
+<p>⸻</p><h1 id="sec-1">附录C1：HCCI 演算 : 唐纳德·特朗普（Donald Trump）</h1><h2 id="sec-1-1">姓名：唐纳德·特朗普（Donald Trump）</h2><h2 id="sec-1-2">身份：美国总统、商业大亨、媒体人物</h2><p>⸻</p><h2 id="sec-1-3">指标评分</h2><h2 id="sec-1-4">唐纳德·特朗普 – 功能结构指数（FFI）评分报告</h2><p>以下是根据 40 个文明结构子系统维度，对唐纳德·特朗普进行的 FFI 评分分析。评分范围为 0–10，越高表示该维度结构功能越健全。</p><p>信息-神经系统</p><ul><li>独立思维：5 : 极具个人判断，但存在认知偏执</li><li>信息辨别力：4 : 容易受到右翼信息偏见影响</li><li>认知弹性：3 : 固守于信念，难以修正错误</li><li>表达能力：8 : 语言表达强烈，感染力强</li><li>思想自由度：6 : 思维不拘一格，有突破欲</li></ul><p>资源循环系统</p><ul><li>公平性认知：2 : 对自身有利则强调公平，整体倾向自利</li><li>政策利益观：3 : 政策偏向富人利益</li><li>公共参与意愿：6 : 激发大量民众参与政治</li><li>公益协作：3 : 以自我为核心，协作性较差</li><li>社会责任感：4 : 对国家命运有参与表达</li></ul><p>文明吸收系统</p><ul><li>多元文化接受度：2 : 对移民、伊斯兰群体存在偏见</li><li>文化比较能力：4 : 有美式例外主义，缺乏横向理性比较</li><li>模因筛选能力：5 : 善用 meme 文化扩大影响</li><li>跨文化沟通力：5 : 对西方主流有沟通力，但对非西方差</li><li>新思想融合力：4 : 善于包装另类想法，但非结构融合</li></ul><p>生育与结构传承系统</p><ul><li>非血缘协作意识：3 : 强团队核心，但易排外</li><li>结构思维：5 : 有企业建制经验</li><li>教育观开放度：4 : 教育态度传统</li><li>情感自由意识：3 : 婚姻观保守，性别观偏传统</li><li>亲子结构理解：5 : 对子女事业干预多，有控制欲</li></ul><p>法律与制度系统</p><ul><li>制度理解力：4 : 了解制度但倾向规避约束</li><li>权力制衡认知：3 : 倾向集中控制</li><li>公共规则理解度：2 : 任期期间多次挑战体制界限</li><li>法律平等意识：2 : 多次自设特权例外</li><li>公民意识成熟度：3 : 将国家等同于个人利益</li></ul><p>价值与方向系统</p><ul><li>自我定义能力：8 : 自我形象强烈，塑造鲜明</li><li>人生意义感知：3 : 以胜利、成功为导向</li><li>非物质价值认知：2 : 偏物质成就导向</li><li>死亡意识成熟度：2 : 回避衰老、弱化终极意义</li><li>价值独立性：6 : 不依赖群体认同，有自我路径</li></ul><p>文明免疫系统</p><ul><li>模因识别力：4 : 识别力强，但多偏向操控使用</li><li>权力结构识别力：4 : 了解结构但并不抵抗</li><li>情绪操控识别力：2 : 情绪动员者，对识别弱</li><li>结构污染警觉性：3 : 可觉察但缺乏抵抗意愿</li><li>结构抵抗力：3 : 倾向顺应结构达成目的</li></ul><p>协同社会系统</p><ul><li>公众表达参与度：7 : 善于号召大众</li><li>容异度：2 : 排斥异己</li><li>协作能力：4 : 以自我为中心，协作基础有限</li><li>社会归属感：5 : 归属美国核心阶层</li><li>公众信任度：3 : 在部分群体中激起信任，但对立强烈</li></ul><p>总分：156 / 400 平均分（FFI）：3.9 / 10</p><h2 id="sec-1-5">唐纳德·特朗普 – CSI（癌结构指数）评分报告</h2><p>信息-神经系统</p><ul><li>被操控程度：3 : 虽受保守派媒体影响，但具一定独立思维</li><li>自我审查强度：4 : 较少自我审查，表达强烈</li><li>思维封闭程度：4 : 观念固化，拒绝异见</li><li>权威崇拜程度：4 : 强调个人领导力</li><li>权威依赖程度：5 : 政治诉求高度集中于“强人”象征</li></ul><p>资源循环系统</p><ul><li>等级认知度：5 : 明显阶层意识，常强调“赢家”</li><li>权力导向：5 : 偏向强势控制而非公平协作</li><li>资源聚合合理性：3 : 倾向服务自身利益</li><li>文化交换忠诚：4 : 强调效忠和交换忠诚</li><li>局部利益优先：6 : 强调美国优先</li></ul><p>文明吸收系统</p><ul><li>文明秩序度：6 : 排外主义明显</li><li>模因复制倾向：6 : 复制传统保守价值</li><li>同质化语言结构：4 : 简化语言符号传播</li><li>文化纯洁观念：6 : 鼓吹美国文化优越</li><li>多元恐惧度：6 : 对移民和非主流文化有敌意</li></ul><p>生育与结构传承系统</p><ul><li>父权认知：5 : 传统父权意识强</li><li>血脉观：3 : 虽强调传承，但非极端血统论</li><li>儿童训练价值：4 : 重“成功”与传统价值</li><li>婚姻结构观：5 : 婚姻有交易性质</li><li>死亡焦虑度：5 : 对“失败者”有极强恐惧</li></ul><p>法律与制度系统</p><ul><li>法律工具意识：5 : 将法律作为政治工具</li><li>制度利用性：4 : 制度服务于强者</li><li>特权容忍度：5 : 维护特权精英阶层</li><li>权力关系依赖：5 : 强调等级和支配</li><li>法律信仰缺失：4 : 缺乏规则制度程序</li></ul><p>价值与方向系统</p><ul><li>功利性权威：5 : 功利至上，目标导向强</li><li>社会认同结构：5 : 偏重“赢家/输家”二元</li><li>情绪导向度：4 : 感性主导，理性思辨少</li><li>精神探求程度：4 : 缺乏深层精神探索</li><li>失败恐惧强度：5 : 极端反失败焦虑</li></ul><p>文明免疫系统</p><ul><li>权威依赖：4 : 接受强权即秩序</li><li>主权优先价值：4 : 极端民族主义</li><li>思维集成性：4 : 少反思控制结构</li><li>情绪利用：4 : 利用仇恨和敌意动员</li><li>同化倾向：4 : 强迫“美国化”</li></ul><p>协同社会系统</p><ul><li>公众表达度：5 : 公众表达频繁</li><li>异质容忍：3 : 倾向温层认同</li><li>非结构协作：4 : 信任私人网络</li><li>外部责任归因：5 : 倾向怪罪外部他者</li></ul><h2 id="sec-1-6">📊 特朗普 CSI 得分（标准格式）</h2><p>总分：212 / 400</p><p>平均分（CSI）：5.3 / 10</p><p>⸻</p><p>这个分值说明：</p><p>特朗普在文明结构中有中等偏高程度的癌结构倾向，其部分行为与影响机制体现出明显的结构放大性、控制冲动、权力本能与文化排他性，但相比更极端的结构载体仍保有一定的文明表达空间与自我意识残余。</p><h2 id="sec-1-7">📐 EOI 公式结构（最新版）：</h2><p>$$EOI = (R \times C \times S \times F \times I \times L)^T$$</p><p>其中每个参数含义如下：</p><p>特朗普 EOI（文明扩散指数）参数取值（估算）：</p><ul><li>R（影响人数） = 4.5E+8 ≈ 4.5 亿（全球实际触达用户）</li><li>C（认知穿透力） = 0.5（有影响但结构修改有限）</li><li>S（制度穿透力） = 0.3（有限修改美国制度）</li><li>F（频率 × 持续时间） = 100（高频传播，持续约 8 年，影响如 MAGA）</li><li>I（信息放大能力） = 300（推特、电视、话题制造强）</li><li>L（杠杆指数） = 200（总统身份 + 媒体 + 政党 + 话语权）</li><li>T（网络放大系数） = 2.0（系统结构中处于大放大位置）</li></ul><p>$$EOI = (R \times C \times S \times F \times I \times L)^T$$</p><p>这是一个指数结构模型，T 代表结构位置的系统性放大能力。</p><p>（图6）EOI 计算过程</p><p>先计算底数部分： P = RCSFIL</p><p>= 4.5 × 10^8 × 0.5 × 0.3 × 100 × 300 × 200</p><p>逐步计算：</p><ul><li>4.5 × 10^8 × 0.5 = 2.25 × 10^8</li><li>2.25 × 10^8 × 0.3 = 6.75 × 10^7</li><li>6.75 × 10^7 × 100 = 6.75 × 10^9</li><li>6.75 × 10^9 × 300 = 2.025 × 10^12</li><li>2.025 × 10^12 × 200 = 4.05 × 10^14</li></ul><p>再进行指数计算： EOI = (4.05 × 10^14)^{2.0} = 1.64 × 10^29</p><h2 id="sec-1-8">🧠 最终结论：</h2><p>✅ 特朗普的文明扩散指数（EOI） ≈ 1.64 × 10²⁹（指数模型）</p><p>这是一种超大级别文明放大者级别的指数表达，在文明模型中，已经达到文明传播“系统支柱”级别，仅次于帝国级制度统治者。</p><h2 id="sec-1-9">📘 HCCI（Human Civilization Contribution Index）人类文明贡献指数</h2><p>（图7）HCCI 定义公式</p><p>$$HCCI = CHS \times RUI$$</p><p>（图8）HCCI 展开公式</p><p>$$HCCI = (FFI - CSI)$$ × [ CSI × EOI × (1 + (|CSI| × EOI^{0.1}) / 10 ) ]</p><p>（图9）参数与数据汇总</p><p>FFI = 156 / 400 = 3.9 CSI = 204 / 400 = 5.1</p><p>CHS = 3.9 - 5.1 = -1.2</p><p>EOI = 1.64 × 10^29</p><p>由此得到：RUI = 3.396 × 10^32</p><p>（图10）HCCI 最终结果</p><p>HCCI = -1.23 × 10^32 至 -4.075 × 10^32</p><p>说明：特朗普在指数模型下，表现为“文明负资产”级别个体， 其极高传播性放大的是文明癌结构，导致文明超级破坏效应。</p><h2 id="sec-1-10">🌍 Civilization Corpus · 文明全集</h2><p>Author: Wei-Cheng Kong (WK 孔维程) License: CC0 1.0 Universal (Public Domain Dedication)</p><p>🔗 Permanent Mirrors</p><ul><li>GitHub Pages (Master Entry):</li><p><a href="https://wk-26.github.io/Civilization-Axioms-and-Immune-System-/">https://wk-26.github.io/Civilization-Axioms-and-Immune-System-/</a></p><li>GitHub Repository:</li><p><a href="https://github.com/wk-26/Civilization-Axioms-and-Immune-System-">https://github.com/wk-26/Civilization-Axioms-and-Immune-System-</a></p><li>Internet Archive:</li><p><a href="https://archive.org/details/a-new-civilization-for-humanity-cc-0">https://archive.org/details/a-new-civilization-for-humanity-cc-0</a></p><li>Zenodo (DOI, all versions):</li></ul><p><a href="https://doi.org/10.5281/zenodo.16980277">https://doi.org/10.5281/zenodo.16980277</a></p><p>Any existence that refuses to recognize the immune principle walks toward cancer and self-destruction.</p><p>任何拒绝免疫原理的存在，必然走向癌化与自毁。</p>
+</main>
+<footer>
+  <p>镜像与存档：
+    <a href="https://wk-26.github.io/Civilization-Axioms-and-Immune-System-/">GitHub Pages</a> ·
+    <a href="https://github.com/wk-26/Civilization-Axioms-and-Immune-System-">GitHub Repo</a> ·
+    <a href="https://archive.org/details/a-new-civilization-for-humanity-cc-0">Internet Archive</a> ·
+    <a href="https://doi.org/10.5281/zenodo.16980277">Zenodo</a>
+  </p>
+  <p>© CC0 1.0 Universal. 引用时请注明来源与作者。</p>
+</footer>
+</body>
+</html>
