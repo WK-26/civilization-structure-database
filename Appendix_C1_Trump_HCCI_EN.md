@@ -1,0 +1,213 @@
+# Appendix C1: HCCI Calculation — Donald Trump
+
+## Name: Donald J. Trump
+## Identity: U.S. President, Business Magnate, Media Personality
+
+---
+
+## Indicator Scoring
+
+### Donald Trump – Functional Fabric Index (FFI) Report
+
+The following is the FFI scoring analysis of Donald Trump across 40 civilizational subsystems.  
+The scale is 0–10; higher scores indicate more functional and healthy structures.
+
+#### Information–Neural System
+- Independent Thinking: **5** — Strong personal judgment but with cognitive rigidity
+- Information Discernment: **4** — Easily influenced by right-wing bias
+- Cognitive Flexibility: **3** — Stubborn, rarely revises mistakes
+- Expressive Ability: **8** — Strong rhetorical power and emotional influence
+- Intellectual Freedom: **6** — Unconventional thinking with disruptive drive
+
+#### Resource Circulation System
+- Fairness Awareness: **2** — Selectively advocates fairness, overall self-serving
+- Policy Interest View: **3** — Policies favor wealthy elites
+- Public Participation Willingness: **6** — Mobilized large-scale political participation
+- Public Cooperation: **3** — Ego-centered, poor cooperation
+- Social Responsibility: **4** — Expressed involvement in national destiny
+
+#### Civilizational Absorption System
+- Multicultural Acceptance: **2** — Bias against immigrants and Muslim groups
+- Cross-Cultural Comparison: **4** — U.S. exceptionalism, weak rational comparison
+- Meme Filtering: **5** — Effectively uses meme culture for influence
+- Cross-Cultural Communication: **5** — Communicates well within the West, weak beyond
+- Integration of New Ideas: **4** — Packages alternative ideas but lacks structural fusion
+
+#### Reproductive & Structural Transmission System
+- Non-Kin Cooperation: **3** — Strong team loyalty, but exclusionary
+- Structural Thinking: **5** — Experience with business organization
+- Openness to Education: **4** — Traditional educational attitude
+- Emotional Freedom: **3** — Conservative marital and gender views
+- Parent–Child Understanding: **5** — Heavy intervention in children’s careers, controlling
+
+#### Legal & Institutional System
+- Institutional Understanding: **4** — Understands system but bypasses constraints
+- Balance of Power Cognition: **3** — Prefers concentration of control
+- Public Rule Understanding: **2** — Frequently challenged institutional boundaries
+- Legal Equality Awareness: **2** — Often claims privileges and exceptions
+- Civic Maturity: **3** — Equates state with personal interests
+
+#### Value & Direction System
+- Self-Definition Ability: **8** — Strong self-image, sharply defined persona
+- Sense of Life Meaning: **3** — Oriented around victory and success
+- Non-Material Value Cognition: **2** — Materialistic, success-driven
+- Mortality Awareness: **2** — Avoids aging, weak existential reflection
+- Value Independence: **6** — Self-directed, not reliant on collective recognition
+
+#### Civilizational Immune System
+- Meme Recognition: **4** — Recognizes memes, but manipulates them
+- Power Structure Awareness: **4** — Understands but does not resist
+- Emotional Manipulation Awareness: **2** — Master manipulator, weak recognition
+- Pollution Vigilance: **3** — Detects but rarely resists toxic structures
+- Structural Resistance: **3** — Complies with structures to achieve goals
+
+#### Collaborative Social System
+- Public Participation: **7** — Highly capable mass mobilizer
+- Tolerance of Differences: **2** — Rejects dissenters
+- Cooperative Ability: **4** — Self-centered, limited cooperation
+- Sense of Belonging: **5** — Identified with U.S. elite core
+- Public Trust: **3** — Trust from some groups, strong polarization
+
+**Total Score:** 156 / 400  
+**Average FFI:** 3.9 / 10
+
+---
+
+### Donald Trump – Cancerous Structure Index (CSI) Report
+
+#### Information–Neural System
+- Susceptibility to Manipulation: **3** — Influenced by conservative media, but retains some autonomy
+- Self-Censorship: **4** — Rarely self-censors, strong expression
+- Cognitive Closure: **4** — Fixed worldview, resists dissent
+- Authority Worship: **4** — Emphasizes personal leadership
+- Dependence on Authority: **5** — Politics centered on “strongman” image
+
+#### Resource Circulation System
+- Hierarchy Awareness: **5** — Strong class consciousness, “winners” emphasis
+- Power Orientation: **5** — Seeks dominance rather than fairness
+- Resource Aggregation Rationality: **3** — Focus on self-interest
+- Loyalty Exchange: **4** — Stresses loyalty-for-benefit exchanges
+- Local Interest Priority: **6** — “America First”
+
+#### Civilizational Absorption System
+- Civilizational Orderliness: **6** — Prominent exclusionism
+- Meme Replication: **6** — Replicates traditional conservative values
+- Homogenized Language Use: **4** — Simplifies language for mass spread
+- Cultural Purity: **6** — Promotes U.S. cultural superiority
+- Fear of Diversity: **6** — Hostile toward immigrants, minorities
+
+#### Reproductive & Structural Transmission System
+- Patriarchal Consciousness: **5** — Strong patriarchal values
+- Bloodline View: **3** — Stresses legacy but not extreme bloodline ideology
+- Child-Rearing Values: **4** — Focus on success, traditional morality
+- Marital Structure: **5** — Transactional view of marriage
+- Death Anxiety: **5** — Deep fear of “loser” identity
+
+#### Legal & Institutional System
+- Legal Instrumentalism: **5** — Law as a political tool
+- Institutional Utilization: **4** — System serves the strong
+- Privilege Tolerance: **5** — Protects elite privilege
+- Dependence on Power Relations: **5** — Emphasizes hierarchy and dominance
+- Lack of Legal Faith: **4** — Weak belief in rule of law
+
+#### Value & Direction System
+- Instrumental Authority: **5** — Pragmatic, goal-oriented
+- Social Identity Structure: **5** — Winner/loser binary
+- Emotional Orientation: **4** — Emotion-driven, little rational analysis
+- Spiritual Exploration: **4** — Lack of deeper inquiry
+- Fear of Failure: **5** — High anxiety over failure
+
+#### Civilizational Immune System
+- Authority Dependence: **4** — Accepts power as order
+- Sovereignty Priority: **4** — Extreme nationalism
+- Integrative Thinking: **4** — Little reflection on structures
+- Emotional Utilization: **4** — Mobilizes hatred and hostility
+- Assimilation Tendency: **4** — Imposes “Americanization”
+
+#### Collaborative Social System
+- Public Expression: **5** — Very vocal
+- Heterogeneity Tolerance: **3** — Prefers homogeneity
+- Non-Structural Cooperation: **4** — Trusts personal networks
+- External Attribution: **5** — Blames external actors
+
+📊 **CSI Score (Standard Format):**  
+**Total:** 212 / 400  
+**Average CSI:** 5.3 / 10
+
+---
+
+### Interpretation
+
+Trump exhibits a moderately high level of cancerous structural tendencies. His actions and influence mechanisms amplify structural expansionism, control impulses, power orientation, and cultural exclusivity. However, compared to more extreme carriers, he retains some civilizational expression and residual self-awareness.  
+
+---
+
+### 📐 EOI Formula (Latest Version)
+
+```math
+EOI = (R × C × S × F × I × L)^{T}
+```
+
+**Estimated Parameters for Trump:**  
+- R (Reach): 4.5E+8 ≈ 450 million (global audience)  
+- C (Cognitive Penetration): 0.5 (influential but limited structural modification)  
+- S (Structural Penetration): 0.3 (limited institutional impact)  
+- F (Frequency × Duration): 100 (high frequency, ~8 years, e.g., MAGA movement)  
+- I (Information Amplification): 300 (Twitter, TV, agenda-setting power)  
+- L (Leverage Power): 200 (presidency + media + party + discourse control)  
+- T (Network Amplifier): 2.0 (structural amplification position)  
+
+**Step Calculation:**  
+- P = R × C × S × F × I × L  
+= 4.5E+8 × 0.5 × 0.3 × 100 × 300 × 200 = 4.05 × 10^14  
+- EOI = (4.05 × 10^14)² = 1.64 × 10^29  
+
+✅ **EOI (Effectiveness of Influence)** for Trump ≈ **1.64 × 10²⁹**  
+→ A super-scale *civilizational amplifier*, approaching structural pillar level, second only to imperial-scale institutional rulers.  
+
+---
+
+### 📘 HCCI (Human Civilization Contribution Index)
+
+**Definition:**  
+```math
+HCCI = CHS × RUI
+```  
+
+**Expanded Formula:**  
+```math
+HCCI = (FFI - CSI) × [ CSI × EOI × (1 + (|CSI| × EOI^{0.1}) / 10 ) ]
+```  
+
+**Parameters:**  
+- FFI = 156 / 400 = 3.9  
+- CSI = 204 / 400 = 5.1  
+- CHS = 3.9 – 5.1 = -1.2  
+- EOI = 1.64 × 10^29  
+
+**Result:**  
+- RUI ≈ 3.396 × 10^32  
+- HCCI ≈ –1.23 × 10^32 to –4.075 × 10^32  
+
+---
+
+### 🧠 Final Conclusion
+
+Trump represents a **civilizational “negative asset”** under the model.  
+His extraordinarily high influence amplifies cancerous structures, producing a **super-destructive effect** on global civilization.  
+
+---
+
+### 🌍 Civilization Corpus
+
+**Author:** Wei-Cheng Kong (WK 孔维程)  
+**License:** CC0 1.0 Universal (Public Domain Dedication)  
+
+🔗 **Permanent Mirrors**  
+- GitHub Pages (Master Entry): [link](https://wk-26.github.io/Civilization-Axioms-and-Immune-System-/)  
+- GitHub Repository: [link](https://github.com/wk-26/Civilization-Axioms-and-Immune-System-)  
+- Internet Archive: [link](https://archive.org/details/a-new-civilization-for-humanity-cc-0)  
+- Zenodo (DOI, all versions): [link](https://doi.org/10.5281/zenodo.16980277)  
+
+> Any existence that refuses to recognize the immune principle walks toward cancer and self-destruction.  
+> 任何拒绝免疫原理的存在，必然走向癌化与自毁。  
