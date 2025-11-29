@@ -276,11 +276,6 @@
 
 ---
 
-# Personal vs. Personal Structural Collision  
-**— The Minimal Unit of All Civilizational Conflict (English Edition)**
-
-You think you
-
 # Personal vs Personal Structural Collision Model  
 **— The Smallest Unit of All Civilizational Conflict (English Edition)**
 
